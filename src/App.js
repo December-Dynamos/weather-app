@@ -41,8 +41,8 @@ const App = () => {
         <div>
              <button onClick={fetchLocation}> Fetch Location </button>
 
-                <h1>Latitude: {latitude}</h1>
-                <h1>Longitude: {longitude}</h1>
+                {/* <h1>Latitude: {latitude}</h1>
+                <h1>Longitude: {longitude}</h1> */}
                 <h1>Hemisphere: {hemisphere}</h1>
                 <h1>Month: {month}</h1>
 
